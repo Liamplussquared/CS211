@@ -1,3 +1,16 @@
+/*Problem Statement
+The goal is to sort a long list of words by special order. The special
+order is as follows. All the words are sorted by the 'greatest' character in
+that word. What this means is that all words whose greatest character is
+a 'a' (i.e. that feature only a's) should come first, followed by all words
+whose greatest character is a 'b' (e.g. "baa"), followed by all those words
+whose greatest character is an 'c' (e.g. "cab") and so forth. Here 'greatest'
+means furthest along in the alphabet. The very last words in the list will 
+be those whose greatest character is a 'z' (i.e. any words that have a 'z' in
+them).
+For words that have the same greatest character (e.g. "salt" and "table",
+which both feature a 't' as their greatest character), these should be sorted
+alphabetically (so 'salt' would come first) */
 import java.util.Scanner;
 public class QuicksortLexi {
 	public static void main(String args []) {
